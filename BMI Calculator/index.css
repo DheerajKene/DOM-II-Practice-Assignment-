@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    margin-top: 30px;
+    background-color: antiquewhite;
+}
+#btn{
+    height: 40px; 
+    width: 200px;
+    background-color: rgb(190, 109, 16); 
+    border-radius: 10px; 
+    border-color: rgb(106, 5, 12); 
+    font-size: 20px; 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(43, 2, 2); 
+    text-align: center;
+}
+#BMI{
+    font-size: 30px;
+    font-weight: bold;
+}
+#status{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="mainPage">
+        <div id="BMIwindow">
+            <form action="">
+                <label for="weight" style="font-size: 30px;font-weight: bold; color: rgb(71, 31, 34); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Input your weight in here (KG)</label><br><br>
+                <input id="weight" type="number" style="height: 30px; width: 350px;background-color: rgb(38, 21, 2); border-radius: 10px; border-color: rgb(126, 240, 69); font-size: 20px; font-weight: bold; font-family: 'Times New Roman', Times, serif; color: rgb(224, 239, 16); text-align: center;"><br><br>
+                <label for="height" style="font-size: 30px;font-weight: bold; color: rgb(71, 31, 34); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Input your height in here (CM)</label><br><br>
+                <input id="height" type="number" style="height: 30px; width: 350px;background-color: rgb(38, 21, 2); border-radius: 10px; border-color: rgb(126, 240, 69); font-size: 20px; font-weight: bold; font-family: 'Times New Roman', Times, serif; color: rgb(224, 239, 16); text-align: center;"><br>
+                <br>
+                <button id="btn">Calculate your BMI</button>
+                <br>
+                <h3 id="error"></h3>
+                <h3 style="font-size: 30px; font-weight: bold;">Your BMI is:</h3> <h3 id="BMI"></h3><h3 id="status"></h3>
+
+
+            </form>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+<script src="./index.js"></script>
